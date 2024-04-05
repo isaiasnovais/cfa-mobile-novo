@@ -1,8 +1,8 @@
-import { Button } from '@components/Button'
 import { useNavigation } from '@react-navigation/native';
-import { Center } from 'native-base';
+import { Text, View } from 'react-native';
 import { useState } from 'react';
-import { View, Text } from 'react-native'
+
+import { Button } from '@components/Button';
 
 export function SignIn() {
   const navigation = useNavigation();
